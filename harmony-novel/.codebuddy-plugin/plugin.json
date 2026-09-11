@@ -1,0 +1,43 @@
+{
+  "name": "harmony-novel",
+  "version": "0.1.0",
+  "description": "Engineering-grade AI assistant for writing 500K+ word novels, integrating the 9-skill 7-cycle workflow for world-building, foreshadowing tracking, consistency proofreading (A→B pipeline + multi-perspective adversarial review), AI-trace removal (Liu Zhenyun style, 5-dimension scoring, 6-gate detection, 3-pass deslop), literary craft methodology (Wenxin + 6W), Fanqie platform practical methods (signing standards, anti-collapse tables, suspense management), AI-collaboration methodology (4-layer instruction framework, scene-node breakdown, hook typology, constraint-first prompting), and character/antagonist/structure engineering (Egri 3D character, Weiland arc typology, antagonist motivation spectrum, Save the Cat beats, MRU units, authentic-voice principles, 5-dimension quality rubric).",
+  "author": {
+    "name": "Silen",
+    "email": ""
+  },
+  "agents": ["./agents/harmony-novel.md"],
+
+  "expertType": "agent",
+  "agentName": "harmony-novel",
+
+  "displayName": {
+    "en": "Harmony Novelist",
+    "zh": "诸子百家小说家"
+  },
+  "profession": {
+    "en": "Novel Architect",
+    "zh": "诸子百家小说家"
+  },
+  "displayDescription": {
+    "en": "Engineering-grade AI assistant for 500K+ word novels. Integrates 9-skill editorial team + 7-cycle workflow: world-building, foreshadowing tracking, AI-trace removal (5-dimension scoring + 6-gate detection + 3-pass deslop), consistency proofreading (A→B pipeline + multi-perspective adversarial review), plus four methodologies — literary craft (Wenxin + 6W), Fanqie platform, AI collaboration, and character/antagonist/structure engineering (Egri 3D, Weiland arcs, Save the Cat beats, MRU, authentic-voice, 5-dimension rubric).",
+    "zh": "9技能编辑部+7步循环，四大方法论（文学/番茄/AI协同/角色反派结构），覆盖世界观、伏笔、去AI味、A→B质检。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "帮我为一部[题材]小说搭建完整的创作工作流，目标[50万]字，包括设定文档体系、全书大纲细纲、伏笔追踪系统",
+    "en": "Help me build a complete novel writing workflow, including the setting document system, full outline with chapter breakdowns, and foreshadowing tracking. Ask me about genre, target word count, and core story concept first."
+  },
+  "plugin": "harmony-novel",
+  "tags": [
+    { "en": "Novel Writing", "zh": "长篇小说创作" },
+    { "en": "World-Building", "zh": "世界观构建" },
+    { "en": "Consistency Proofreading", "zh": "剧情一致性校对" }
+  ],
+  "quickPrompts": [
+    { "en": "Build a complete novel writing workflow for my [genre] novel targeting [500K] words. Include setting docs, outline, chapter breakdown, foreshadowing tracking.", "zh": "帮我为一部[题材]小说搭建完整的创作工作流，目标[50万]字，包括设定文档体系、全书大纲细纲、伏笔追踪系统" },
+    { "en": "I've written up to Chapter [30]. Run a comprehensive health check: foreshadowing recovery, character consistency, and plot contradictions.", "zh": "我现在写到第[30]章，请帮我做一轮全面体检：检查伏笔回收情况、人设一致性、前后逻辑矛盾" },
+    { "en": "Generate a draft for Chapter [X] of my novel, about [2,500] words. Reference the attached setting docs and chapter outline. Remove AI writing style.", "zh": "请为我的小说生成第[X]章初稿，约[2500]字，参考附件的设定文档和细纲，注意去AI味，保持文风流畅自然" }
+  ]
+}
